@@ -1,4 +1,4 @@
--- Script to print the full description of the table 'books'
+-- Script to print the full description of the table 'Books'
 -- Database name will be passed as argument when running the MySQL command
 -- All SQL keywords are in uppercase
 -- Example usage:
@@ -14,4 +14,4 @@ SELECT COLUMN_NAME AS 'Column',
        EXTRA AS 'Extra'
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store' 
-  AND TABLE_NAME = 'books';
+  AND TABLE_NAME = 'Books';
